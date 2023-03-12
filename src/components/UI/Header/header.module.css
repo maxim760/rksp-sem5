@@ -1,0 +1,25 @@
+
+
+.header {
+  background-color: var(--primary-color);
+}
+.header-content {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  color: var(--primary-color-text);
+}
+.link {
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 2px 4px;
+  border-radius: 8px;
+  color: var( --primary-color-text);
+}
+
+.link-active {
+  background-color: var(--primary-color-dark);
+}
